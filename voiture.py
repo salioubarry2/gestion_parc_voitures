@@ -3,7 +3,4 @@ class Voiture:
         self.matricule = matricule
         self.marque = marque
         self.couleur = couleur
-    def afficher_information(self):
-        print("Matricule:",self.matricule)
-        print("Marque:",self.marque)
-        print("Couleur:",self.couleur)
+
