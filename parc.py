@@ -4,3 +4,5 @@ class Parc:
         self.adresse = adresse
         self.capacite = capacite
         self.liste_voiture = []
+    def entrer_voiture(self,voiture):
+          self.liste_voiture.append(voiture)
