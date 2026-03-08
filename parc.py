@@ -6,3 +6,10 @@ class Parc:
         self.liste_voiture = []
     def entrer_voiture(self,voiture):
           self.liste_voiture.append(voiture)
+    def sortir_voiture(self , voiture):
+        if voiture in self.liste_voiture:
+            self.liste_voiture.remove(voiture)
+            print("la voiture est sortie du parc.")
+        else :
+            print("la voiture n'est pas dans le parc.")
+
