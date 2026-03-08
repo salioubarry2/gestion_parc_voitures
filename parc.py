@@ -13,3 +13,6 @@ class Parc:
         else :
             print("la voiture n'est pas dans le parc.")
 
+    def calculer_nbr_place_dispo(self):
+        return self.liste_capacite -len(self.liste_voiture)
+
